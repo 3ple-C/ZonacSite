@@ -1,3 +1,29 @@
+<?php
+session_start();
+
+// Get the product ID from query parameters
+$product_id = $_GET['product_id'] ?? null;
+
+// Check if the user is not logged in
+if (!isset($_SESSION['user_id'])) {
+    // Store the intended URL
+    $redirect_url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    $_SESSION['redirect_url'] = $redirect_url;
+
+    // Redirect to login page
+    header("Location: login.php");
+    exit();
+} else {
+    // User is logged in, proceed with adding product to the cart
+    echo "<p>Product added to cart.</p>";
+
+    // Example code for adding the product to the cart
+    // Here you would typically add the product to the user's cart in the session or database
+    // $_SESSION['cart'][] = $product_id;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
