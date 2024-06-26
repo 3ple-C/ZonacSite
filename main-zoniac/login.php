@@ -131,11 +131,10 @@
 						</div>
 					</div>
 				</div>
-				<!-- Login section -->
 				<div class="col-lg-6" id="login">
 					<div class="login_form_inner" >
 						<h3>Log in to enter</h3>
-						<form class="row login_form" action="contact_process.php" method="post" id="login_form" novalidate="novalidate">
+						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
 							</div>
@@ -156,11 +155,10 @@
 					</div>
 				</div>
 
-				<!-- Signup section -->
 				<div class="col-lg-6" id="signup" style="display: none;">
 					<div class="login_form_inner" >
 						<h3>Create an account</h3>
-						<form class="row login_form" action="contact_process.php" method="post" id="signup_form" novalidate="novalidate">
+						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Full name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
 							</div>
@@ -173,10 +171,15 @@
 							<div class="col-md-12 form-group">
 								<input type="password" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
 							</div>
-							
+							<div class="col-md-12 form-group">
+								<!-- <div class="creat_account">
+									<input type="checkbox" id="f-option2" name="selector">
+									<label for="f-option2">Keep me logged in</label>
+								</div> -->
+							</div>
 							<div class="col-md-12 form-group">
 								<button type="submit" value="submit" class="primary-btn">Sign Up</button>
-								<a href="javascript:void(0)" onclick="signIn()"><span style="color: #ff6c00;">Already have an account? </span>Sign in.</a>
+								<a href="javascript:void(0)" onclick="signIn()">Sign in.</a>
 							</div>
 						</form>
 					</div>
@@ -280,9 +283,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!--gmaps Js-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
-	<script src="js/main.js"></script>
-	<!-- Custom Javascript -->
 	<script src="js/login.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
