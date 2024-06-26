@@ -1,3 +1,6 @@
+@import "variables";
+@import "mixins";
+
 //header_area css
 .is-sticky {
 	.header_area {
@@ -206,7 +209,7 @@
 	width: 100%;
 	max-width: 1200px;
 	z-index: 999;
-	@extend .gradient-bg-reverse;
+	@extend .gradient-bg-reverse !optional;
 	text-align: center;
 	padding: 5px 20px;
 	// @include transition();
