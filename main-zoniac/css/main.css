@@ -1475,6 +1475,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .banner-area .active-banner-slider .owl-nav {
+  display: none;
   position: absolute;
   right: 0;
   bottom: -200px;
@@ -1860,9 +1861,13 @@ h1, h2, h3, h4, h5, h6 {
 .single-product {
   margin-bottom: 50px;
 }
-.single-product img {
+.single-product .img-container {
   margin-bottom: 20px;
   width: 100%;
+}
+.single-product .img-container img {
+  width: 100%;
+  object-fit: contain;
 }
 .single-product .product-details h6 {
   font-size: 16px;

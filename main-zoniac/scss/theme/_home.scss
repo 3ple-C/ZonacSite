@@ -202,9 +202,13 @@
 }
 .single-product {
 	margin-bottom: 50px;
-	img {
+	.img-container {
 		margin-bottom: 20px;
 		width: 100%;
+		img {
+			width: 100%;
+			object-fit: contain;
+		}
 	}
 	.product-details {
 		h6 {

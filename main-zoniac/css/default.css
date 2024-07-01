@@ -1,10 +1,10 @@
-p{
+p {
   color: #777777;
 }
-.header-img::before{
+.header-img::before {
   content: "";
   position: absolute;
-  top:-50%;
+  top: -50%;
   left: -40%;
   width: 180%;
   height: 170%;
@@ -13,19 +13,20 @@ p{
   background-position: top;
   background-repeat: no-repeat;
 }
-.header-image{
+.header-image {
   width: 90% !important;
   /* opacity: .2; */
-  
+
   /* background: #333333; */
 }
-.header-img>div{
+.header-img > div {
   width: fit-content;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.banner-content>h1, .banner-content>p{
+.banner-content > h1,
+.banner-content > p {
   color: white;
 }
 .quick_links > li > a {
@@ -35,10 +36,10 @@ p{
 .quick_links > li {
   margin-bottom: 10px;
 }
-.multiple-bg-images{
+.multiple-bg-images {
   /* background: linear-gradient( 126deg, rgba(0, 0, 0, 0.9), rgba(31, 29, 43, 0.8)),
 	 url(../img/main_pics/image-2048x1093.jpg) center no-repeat !important; */
-	/* background-size: contain !important; */
+  /* background-size: contain !important; */
   padding: 15px;
 }
 .about_area {
@@ -46,7 +47,7 @@ p{
   background-color: #fff !important;
 }
 .about_content {
-  line-height: 34px;
+  line-height: 2rem;
   text-align: justify;
   padding-bottom: 40px;
 }
@@ -121,7 +122,7 @@ body {
     }
   }
 
-  .owl-dots>div{
+  .owl-dots > div {
     display: inline-block;
   }
   .card {
@@ -205,22 +206,44 @@ body {
 /* video modal */
 
 .modal-dialog {
-      max-width: 1000px !important;
-      width: 90%;
-      margin: 30px auto;
-  }
+  max-width: 1000px !important;
+  width: 90%;
+  margin: 30px auto;
+}
 
 .modal-body {
-  position:relative;
-  padding:0px;
+  position: relative;
+  padding: 0px;
 }
 .close {
-  position:absolute;
-  right:-30px;
-  top:0;
-  z-index:999;
-  font-size:2rem;
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
   font-weight: normal;
-  color:#fff;
-  opacity:1;
+  color: #fff;
+  opacity: 1;
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #144381;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.dbox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
+.dbox .text {
+  width: 100%; }
+
+.line-height{
+  line-height: 1.8rem;
 }
