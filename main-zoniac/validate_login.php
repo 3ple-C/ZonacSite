@@ -1,4 +1,5 @@
 <?php
+function login(){
 include('dbconnection.php');
 session_start();
 
@@ -34,10 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION['email'] = $email;
 
                 // Redirect to the stored redirect URL or default to index.php
-                $redirect_url = $_SESSION['redirect_url'] ?? 'index.php';
-                unset($_SESSION['redirect_url']);
-                header("Location: $redirect_url");
-                exit();
+               
+                // header("Location: index.php");
+                // exit();
+                echo "<meta http-equiv = 'refresh' content = '0; url=index.php'>" ;
             } else {
                 $errors[] = "Invalid password";
             }
@@ -54,5 +55,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<p>$error</p>";
         }
     }
-}
+}}
 ?>
