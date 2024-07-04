@@ -68,66 +68,20 @@
 	<!-- End Header Area -->
 
 	<!-- start banner Area -->
-	<section class="banner-area" style="padding: 140px 0px 40px;">
-		<div class="container">
-			<div class="row fullscreen align-items-center justify-content-start">
-				<div class="col-lg-12">
-					<div class="active-banner-slider owl-carousel">
-						<!-- single-slide -->
-						<div class="row single-slide align-items-center d-flex py-5">
-							<div class="col-lg-5 col-md-6">
-								<div class="banner-content">
-									<h1>Nike New <br>Collection!</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-										incididunt ut labore et
-										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-									<div class="add-bag d-flex align-items-center">
-										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-										<span class="add-text text-uppercase">Add to Bag</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-7 px-5">
-
-								<div
-									class="banner-img position-relative header-img d-flex flex-column align-items-center">
-									<img src="img/video-placeholder.jpg" alt="Zonac Roofing and Building materials"
-										class="header-image" style="background-blend-mode: overlay;">
-									<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quidem dolorem quia magnam! Velit, ullam consequuntur? Quam tempore, cumque facere in possimus omnis voluptatem ullam expedita placeat, fugiat sunt quae.</p> -->
-									<div class="container position-absolute ">
-										<!-- Button trigger modal -->
-										<button type="button" class="btn btn-primary mx-auto video-btn"
-											data-toggle="modal" data-src="https://www.youtube.com/embed/JJUo8Fe3_JY"
-											data-target="#myModal">
-											<i class="fa-play"></i>
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- single-slide -->
-						<div class="row single-slide">
-							<div class="col-lg-5">
-								<div class="banner-content">
-									<h1>Nike New <br>Collection!</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-										incididunt ut labore et
-										dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-									<div class="add-bag d-flex align-items-center">
-										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-										<span class="add-text text-uppercase">Add to Bag</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-7">
-								<div class="banner-img ">
-									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<section class="header_video">
+		<video autoplay muted loop id="myVideo">
+			<source src="img/video/4770380-hd_1920_1080_30fps.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<div class="header-content">
+			<h1 style="color: white;">Zonac Building Materials <br> & Properties</h1>
+			<p style="color: white;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et
+				dolore magna aliqua.</p>
 		</div>
 	</section>
 	<!-- End banner Area -->
@@ -137,24 +91,24 @@
 		<div class="container-fluid">
 			<div class="row justify-content-center align-items-">
 				<div class="col-lg-6 no-padding exclusive-right">
-					<div class="section-title px-6 pt-5">
+					<div class="section-title px-6 pt-lg-5">
 						<h1 class=" text-sm-center">Who We Are</h1>
 						<p class="about_content pt-2">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eveniet nesciunt illum,
-							sequi magni iure asperiores dolorum quas repudiandae magnam nulla harum excepturi facere, id
-							laborum enim. Blanditiis, adipisci minima.
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequatur magni.
-							Consequuntur sint saepe ducimus excepturi cupiditate doloremque, nesciunt doloribus
-							similique voluptatum repellat dolore cumque, optio dolorum voluptates enim mollitia?
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eveniet nesciunt illum,
-							sequi magni iure asperiores dolorum quas repudiandae magnam nulla harum excepturi facere, id
-							laborum enim. Blanditiis, adipisci minima.
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequatur magni.
-							Consequuntur sint saepe ducimus excepturi cupiditate doloremque, nesciunt doloribus
-							similique voluptatum repellat dolore cumque, optio dolorum voluptates enim mollitia?
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eveniet nesciunt illum,
-							sequi magni iure asperiores dolorum quas repudiandae magnam nulla harum excepturi facere, id
-							laborum enim. Blanditiis, adipisci minima.
+							Since 2012, Zonac Roofing System has been a trusted leader in providing high-quality roofing
+							materials. Our commitment to excellence and innovation has made us a preferred choice for
+							residential and commercial projects alike. From durable asphalt shingles to eco-friendly
+							options, our products are crafted to withstand diverse environmental conditions while
+							enhancing architectural aesthetics.
+
+							At Zonac Roofing System, we prioritize rigorous testing and continuous research to ensure
+							our products meet the highest standards of durability and performance. Our customer-centric
+							approach ensures clear communication, on-time delivery, and responsive support for every
+							project.
+
+							Looking forward, we remain dedicated to advancing innovation and sustainability in the
+							roofing industry. Experience the reliability and aesthetic appeal that define Zonac Roofing
+							System, where quality craftsmanship meets modern roofing solutions.
+
 
 						</p>
 
@@ -165,7 +119,7 @@
 					<div class="row clock_sec clockdiv" id="clockdiv">
 						<div class="col-lg-12">
 							<h1>Exclusive Hot Deal Ends Soon!</h1>
-							<p>Who are in extremely love with eco friendly system.</p>
+							<p>Explore our wide selection of products to elevate your project.</p>
 						</div>
 						<div class="col-lg-12">
 							<div class="row clock-wrap">
@@ -196,7 +150,7 @@
 	<!-- End About Area -->
 
 	<!-- start features Area -->
-	<section class="features-area section_gap my-5">
+	<section class="features-area section_gap ftco-section">
 		<div class="container">
 			<div class="row features-inner">
 				<!-- single features -->
@@ -205,8 +159,8 @@
 						<div class="f-icon">
 							<img src="img/features/f-icon1.png" alt="">
 						</div>
-						<h6>Free Delivery</h6>
-						<p>Free Shipping on all order</p>
+						<h6>Expertise</h6>
+						<p>Perfect roofing for your project</p>
 					</div>
 				</div>
 				<!-- single features -->
@@ -215,8 +169,8 @@
 						<div class="f-icon">
 							<img src="img/features/f-icon2.png" alt="">
 						</div>
-						<h6>Return Policy</h6>
-						<p>Free Shipping on all order</p>
+						<h6>Quality Assurance</h6>
+						<p>Long-lasting performance</p>
 					</div>
 				</div>
 				<!-- single features -->
@@ -225,8 +179,8 @@
 						<div class="f-icon">
 							<img src="img/features/f-icon3.png" alt="">
 						</div>
-						<h6>24/7 Support</h6>
-						<p>Free Shipping on all order</p>
+						<h6>Customer Satisfaction</h6>
+						<p>Successful roofing experience</p>
 					</div>
 				</div>
 				<!-- single features -->
@@ -235,8 +189,8 @@
 						<div class="f-icon">
 							<img src="img/features/f-icon4.png" alt="">
 						</div>
-						<h6>Secure Payment</h6>
-						<p>Free Shipping on all order</p>
+						<h6>Competitive Pricing</h6>
+						<p>Accessible high-quality materials</p>
 					</div>
 				</div>
 			</div>
@@ -245,9 +199,9 @@
 	<!-- end features Area -->
 
 	<!-- Start category Area -->
-	<section class="category-area pt-3">
+	<section class="category-area pt-5">
 		<div class="container">
-			<div class="section-title w-50 text-center mx-auto">
+			<div class="section-title w-lg-50 text-center mx-auto">
 				<h1>Recent Works</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 					incididunt ut labore et
@@ -328,18 +282,24 @@
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
 							<h1>Latest Products</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-								incididunt ut labore et
-								dolore
-								magna aliqua.</p>
+							<p>Explore our wide selection of products and services designed to elevate your project.</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<!-- single product -->
-					<?php
-// Step 1: Establish a connection to the database
-include "dbconnection.php";
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container " style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/image-255x271.jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone Coated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
 
 // Step 2: Write a SQL query to fetch the products
 $sql = "SELECT * FROM items";
@@ -396,9 +356,11 @@ $conn->close();
 								<img class="img-fluid" src="img/main_pics/image-255x271 (1).jpg" alt="">
 							</div>
 							<div class="product-details">
-								<h6>addidas New Hammer sole
-									for Sports person</h6>
-								
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
 								<div class="prd-bottom">
 
 									<a href="" class="social-info">
@@ -421,7 +383,342 @@ $conn->close();
 							</div>
 						</div>
 					</div>
-					
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (2).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/image-255x271.jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (1).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (2).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/image-255x271.jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (1).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (2).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/image-255x271.jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (1).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single product -->
+					<div class="col-lg-3 col-md-6">
+						<div class="single-product">
+							<div class="img-container" style="width: 255px; height: 271px;">
+								<img class="img-fluid" src="img/main_pics/image-255x271 (2).jpg" alt="">
+							</div>
+							<div class="product-details">
+								<h6>Stone COated roof tiles</h6>
+								<div class="price">
+									<h6>$150.00</h6>
+									<h6 class="l-through">$210.00</h6>
+								</div>
+								<div class="prd-bottom">
+									<a href="" class="social-info">
+										<span class="ti-bag"></span>
+										<p class="hover-text">add to bag</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-heart"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-sync"></span>
+										<p class="hover-text">compare</p>
+									</a>
+									<a href="" class="social-info">
+										<span class="lnr lnr-move"></span>
+										<p class="hover-text">view more</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -472,8 +769,7 @@ $conn->close();
 									<h6>$150.00</h6>
 									<h6 class="l-through">$210.00</h6>
 								</div>
-								<h4>addidas New Hammer sole
-									for Sports person</h4>
+								<h4>Stone COated roof tiles</h4>
 								<div class="add-bag d-flex align-items-center justify-content-center">
 									<a class="add-btn" href=""><span class="ti-bag"></span></a>
 									<span class="add-text text-uppercase">Add to Bag</span>
@@ -488,8 +784,7 @@ $conn->close();
 									<h6>$150.00</h6>
 									<h6 class="l-through">$210.00</h6>
 								</div>
-								<h4>addidas New Hammer sole
-									for Sports person</h4>
+								<h4>Stone COated roof tiles</h4>
 								<div class="add-bag d-flex align-items-center justify-content-center">
 									<a class="add-btn" href=""><span class="ti-bag"></span></a>
 									<span class="add-text text-uppercase">Add to Bag</span>
@@ -528,7 +823,7 @@ $conn->close();
 	<!-- End brand Area -->
 
 	<!-- Testimonials -->
-	<div class="gtco-testimonials my-5">
+	<div class="gtco-testimonials my-5 pb-3">
 		<h1>Client Testimonials</h1>
 		<div class="owl-carousel owl-carousel1 owl-theme">
 			<div>
@@ -536,11 +831,13 @@ $conn->close();
 						src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
 						alt="">
 					<div class="card-body">
-						<h5>Ronne Galle <br />
-							<span> Project Manager </span>
+						<h5>Nnamdi Ofodeme <br />
+							<span>Nnewi, Anambra</span>
 						</h5>
-						<p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-							impedit quo minus id quod maxime placeat ” </p>
+						<p class="card-text">“I recently purchased roofing materials from Zonac Roofing System, and I'm
+							impressed with their selection and expertise. They helped me choose the right materials for
+							my project, ensuring durability and great appearance.”
+						</p>
 					</div>
 				</div>
 			</div>
@@ -549,11 +846,14 @@ $conn->close();
 						src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301"
 						alt="">
 					<div class="card-body">
-						<h5>Missy Limana<br />
-							<span> Engineer </span>
+						<h5>Uche Anusi<br />
+							<span>Onitsha, Anambra</span>
 						</h5>
-						<p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-							impedit quo minus id quod maxime placeat ” </p>
+						<p class="card-text">“ This company made buying roofing materials straightforward and
+							convenient. They have a wide range of options to suit different budgets and styles. The
+							staff was knowledgeable and guided me through the selection process. Highly recommend!"
+
+							” </p>
 					</div>
 				</div>
 			</div>
@@ -562,11 +862,14 @@ $conn->close();
 						src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
 						alt="">
 					<div class="card-body">
-						<h5>Martha Brown<br />
-							<span> Project Manager </span>
+						<h5>Stanley A. <br />
+							<span>Lagos State</span>
 						</h5>
-						<p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-							impedit quo minus id quod maxime placeat ” </p>
+						<p class="card-text">“
+							I bought roofing shingles from Zonac Roofing System for a DIY project, and I couldn't be
+							happier with the quality. The materials were delivered promptly, and their team provided
+							helpful tips for installation. Will definitely return for future projects!”
+						</p>
 					</div>
 				</div>
 			</div>
@@ -575,14 +878,32 @@ $conn->close();
 						src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303"
 						alt="">
 					<div class="card-body">
-						<h5>Hanna Lisem<br />
-							<span> Project Manager </span>
+						<h5>Anonymous<br />
+							<span> Awka, Anambra state </span>
 						</h5>
-						<p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-							impedit quo minus id quod maxime placeat ” </p>
+						<p class="card-text">
+							“Zonac Roofing Sytem exceeded my expectations when purchasing metal roofing materials. Their
+							customer service was excellent, making the whole buying process smooth and efficient.”
+						</p>
 					</div>
 				</div>
 			</div>
+			<div>
+				<div class="card text-center"><img class="card-img-top"
+						src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303"
+						alt="">
+					<div class="card-body">
+						<h5>Martins<br />
+							<span>Lagos state</span>
+						</h5>
+						<p class="card-text">
+							“I loved the fact that the products were of great quality. I highly recommend.”
+						</p>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 	</div>
 
