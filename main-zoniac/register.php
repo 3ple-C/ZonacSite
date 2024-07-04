@@ -1,68 +1,43 @@
 <?php
-// Include the database connection file
 include('dbconnection.php');
+session_start(); // Start the session
 
 // Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Capture form inputs
-    $user_name = trim($_POST['user_name']);
-    $full_name = trim($_POST['full_name']);
-    $email = trim($_POST['email']);
-    $password = trim($_POST['password']);
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Retrieve the form data
+  $user_name = $_POST['user_name'];
+  $full_name = $_POST['full_name'];
+  $email = $_POST['email'];
+  $password = $_POST['password'];
+  
+  // Check if any required fields are empty
+  if (empty($user_name) || empty($full_name) || empty($email) || empty($password)) {
+    $_SESSION['error'] = 'Please fill in all the required fields.';
+    header("Location: reg_form.php");
+    exit();
+  }
 
-    // Input validation
-    $errors = [];
+  // Check if email already exists
+  $check_email_sql = "SELECT * FROM users WHERE email = '$email'";
+  $result = $conn->query($check_email_sql);
+  
+  if ($result->num_rows > 0) {
+    $_SESSION['error'] = 'Email already exists. Please choose a different email.';
+    header("Location: reg_form.php");
+    exit();
+  }
 
-    // Check if username is valid
-    if (empty($user_name)) {
-        $errors[] = "Username is required";
-    }
-
-    // Check if full name is valid
-    if (empty($full_name)) {
-        $errors[] = "Full name is required";
-    }
-
-    // Validate email
-    if (empty($email)) {
-        $errors[] = "Email is required";
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = "Invalid email format";
-    }
-
-    // Validate password
-    if (empty($password)) {
-        $errors[] = "Password is required";
-    } elseif (strlen($password) < 6) {
-        $errors[] = "Password must be at least 6 characters";
-    }
-
-    // If no errors, proceed to insert into database
-    if (empty($errors)) {
-        // Hash the password
-        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
-        // Prepare SQL statement to prevent SQL injection
-        $stmt = $conn->prepare("INSERT INTO users (user_name, full_name, email, password, date) VALUES (?, ?, ?, ?, NOW())");
-        $stmt->bind_param("ssss", $user_name, $full_name, $email, $hashed_password);
-
-        // Execute the statement
-        if ($stmt->execute()) {
-            header("Location: index.php");
-        } else {
-            echo "Error: " . $stmt->error;
-        }
-
-        // Close the statement
-        $stmt->close();
-    } else {
-        // Display errors
-        foreach ($errors as $error) {
-            echo "<p>$error</p>";
-        }
-    }
-
-    // Close the database connection
-    $conn->close();
+  // Insert user data into the users table
+  $sql = "INSERT INTO users (user_name, full_name, email, password, date) VALUES ('$user_name', '$full_name', '$email', '$password', NOW())";
+  
+  if ($conn->query($sql) === TRUE) {
+    $_SESSION['success'] = 'Record inserted successfully';
+    header("Location: index.php");
+    exit();
+  } else {
+    $_SESSION['error'] = 'Error: ' . $sql . '<br>' . $conn->error;
+    header("Location: reg_form.php");
+    exit();
+  }
 }
 ?>
