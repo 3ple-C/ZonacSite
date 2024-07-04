@@ -4,7 +4,10 @@ const header = `
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/image-50x50.jpg" alt="" class="rounded"></a>
+					<a class="navbar-brand logo_h d-flex gap-1 align-items-center logo-link" href="index.html">
+						<img src="img/image-50x50.jpg" alt="" class="rounded pe-2">
+						<span class="logo-text" style="">Zonac</span>
+					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +56,7 @@ const header = `
 							</li>-->
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+							<li class="nav-item"><a href="#" class="cart"><span class="fa-solid fa-user"></span></a></li>
 							<li class="nav-item">
 								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
 							</li>
@@ -81,13 +84,40 @@ console.log('Seen');
 const footer = `
     <div class="container">
 			<div class="row">
+				<!-- Quick Links -->
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget mail-chimp">
+						<h6 class="mb-20">Quick Links</h6>
+						<ul style="color: #777777;" class="quick_links">
+							<li>
+								<a href="/main-zoniac/category.html">About Us</a>
+							</li>
+							<li>
+								<a href="/main-zoniac/category.html">Products</a>
+
+							</li>
+							<li>
+								<a href="/main-zoniac/category.html">Services</a>
+
+							</li>
+							<li>
+								<a href="/main-zoniac/category.html">Contact us</a>
+
+							</li>
+						</ul>
+					</div>
+				</div>
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
-						<h6>About Us</h6>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore dolore
-							magna aliqua.
+						<h6>Contact Us</h6>
+						<p> <i class="fa-solid fa-phone-volume" style="color:white;"></i>
+							07033797033
+						</p>
+						<p><i class="fa-brands fa-whatsapp" style="color:white;"></i>
+							09155745435
+						</p>
+						<p><i class="fa-solid fa-envelope" style="color:white;"></i>
+							zonac@gmail.com
 						</p>
 					</div>
 				</div>
@@ -125,29 +155,7 @@ const footer = `
 						</div>
 					</div>
 				</div>
-				<!-- Quick Links -->
-				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">Quick Links</h6>
-						<ul style="color: #777777;" class="quick_links">
-							<li>
-								<a href="/main-zoniac/category.html">Who we are</a>
-							</li>
-							<li>
-								<a href="/main-zoniac/category.html">Products</a>
-
-							</li>
-							<li>
-								<a href="/main-zoniac/category.html">Services</a>
-
-							</li>
-							<li>
-								<a href="/main-zoniac/category.html">Contact us</a>
-
-							</li>
-						</ul>
-					</div>
-				</div>
+				
 				<!-- Social Media -->
 				<div class="col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget">
@@ -174,6 +182,7 @@ const footer = `
 			</div>
 		</div>
 `;
+
 
 const footerContent = document.getElementById('footer');
 footerContent.innerHTML = footer;
