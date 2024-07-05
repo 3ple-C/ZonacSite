@@ -32,6 +32,7 @@
   <!--
             JS
             ============================================= -->
+	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
     <script src="js/custom.js" type="module"></script>
 </head>
 
@@ -50,8 +51,8 @@
                 <div class="col-first">
                     <h1>Shopping Cart</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="category.html">Cart</a>
+                        <a href="index.php">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="category.php">Cart</a>
                     </nav>
                 </div>
             </div>

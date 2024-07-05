@@ -52,6 +52,8 @@
     <!--
             JS
             ============================================= -->
+           
+	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
     <script src="js/custom.js" type="module"></script>
 </head>
 
@@ -69,8 +71,8 @@
                 <div class="col-first">
                     <h1>Service Page</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="services.html">Services</a>
+                        <a href="index.php">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="services.php">Services</a>
                     </nav>
                 </div>
             </div>

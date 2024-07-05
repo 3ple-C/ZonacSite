@@ -117,7 +117,14 @@ p {
 }
 .btn:hover {
   background-color: var(--color) !important;
-  color: #fff;
+  color: #fff !important;
+}
+.circle-button{
+  border-radius: 20px;
+}
+.genric-btn.primary-border:hover{
+  background-color: var(--color) !important;
+
 }
 .line-height {
   line-height: 1.8rem;

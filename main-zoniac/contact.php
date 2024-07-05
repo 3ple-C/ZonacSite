@@ -35,6 +35,7 @@
             JS
             ============================================= -->
 	<script src="js/custom.js" type="module"></script>
+	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,8 +53,8 @@
 				<div class="col-first">
 					<h1>Contact Us</h1>
 					<nav class="d-flex align-items-center">
-						<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-						<a href="contact.html">Contact</a>
+						<a href="index.php">Home<span class="lnr lnr-arrow-right"></span></a>
+						<a href="contact.php">Contact</a>
 					</nav>
 				</div>
 			</div>

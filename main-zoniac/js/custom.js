@@ -4,7 +4,7 @@ const header = `
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h d-flex gap-1 align-items-center logo-link" href="index.html">
+					<a class="navbar-brand logo_h d-flex gap-1 align-items-center logo-link" href="index.php">
 						<img src="img/image-50x50.jpg" alt="" class="rounded pe-2">
 						<span class="logo-text" style="">Zonac</span>
 					</a>
@@ -18,45 +18,34 @@ const header = `
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about.php">About us</a></li>
+							<li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
 							<li class="nav-item submenu dropdown">
-								<a href="category.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Product</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-product.html">Product
-											Details</a></li>
-									<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a>
-									</li>
-									<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a>
-									</li>
-								</ul>
+								<a href="category.php" class="nav-link dropdown-toggle" role="button"
+									>Product</a>
 							</li>
 							<!-- <li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Blog</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
 								</ul>
 							</li> -->
-							<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							<!--<li class="nav-item submenu dropdown">
+							<li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Services</a>
+									aria-haspopup="true" aria-expanded="false"><span class="fa-solid fa-user"></span></a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									<li class="nav-item"><a class="nav-link" href="tracking.php">Username</a></li>
+									<li class="nav-item"><a class="nav-link" href="tracking.php">Profile</a></li>
+									<li class="nav-item"><a class="nav-link" href="login.php">Logout</a></li>
 								</ul>
-							</li>-->
+							</li>
 						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="cart"><span class="fa-solid fa-user"></span></a></li>
+						<ul class="nav navbar-nav navbar-right"> 
 							<li class="nav-item">
 								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
 							</li>
@@ -90,18 +79,18 @@ const footer = `
 						<h6 class="mb-20">Quick Links</h6>
 						<ul style="color: #777777;" class="quick_links">
 							<li>
-								<a href="/main-zoniac/category.html">About Us</a>
+								<a href="/main-zoniac/about.php">About Us</a>
 							</li>
 							<li>
-								<a href="/main-zoniac/category.html">Products</a>
+								<a href="/main-zoniac/category.php">Products</a>
 
 							</li>
 							<li>
-								<a href="/main-zoniac/category.html">Services</a>
+								<a href="/main-zoniac/services.php">Services</a>
 
 							</li>
 							<li>
-								<a href="/main-zoniac/category.html">Contact us</a>
+								<a href="/main-zoniac/contact.php">Contact us</a>
 
 							</li>
 						</ul>
@@ -174,9 +163,9 @@ const footer = `
 			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
 				<p class="footer-text m-0">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					All rights reserved | Copyright &copy; Zonac Ltd.
-					<script>document.write(new Date().getFullYear());</script>  This was made by <a href="https://colorlib.com"
-						target="_blank"> Colorlib</a>
+					All rights reserved | Copyright &copy; Zonac Ltd. Deployed by 8TRI_C 
+					<!--<script>document.write(new Date().getFullYear());</script>  This was made by <a href="https://colorlib.com"
+						target="_blank"> Colorlib</a>-->
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>

@@ -1290,9 +1290,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
-    top: 140%;
-    left: 0px;
-    min-width: 200px;
+    top: 130%;
+    left: -30px;
+    min-width: 160px;
     text-align: left;
     opacity: 0;
     -webkit-transition: visibility 0.5s ease;
@@ -1886,7 +1886,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .single-product .product-details .prd-bottom {
   position: relative;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .single-product .product-details .prd-bottom .social-info {
   position: relative;

@@ -34,6 +34,7 @@
     <!--
             JS
             ============================================= -->
+	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
     <script src="js/custom.js" defer></script>
 </head>
 
@@ -51,8 +52,8 @@
                 <div class="col-first">
                     <h1>About Page</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="category.html">About</a>
+                        <a href="index.php">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="category.php">About</a>
                     </nav>
                 </div>
             </div>
@@ -185,7 +186,7 @@
                     <h1 style="font-size: 55px;">Quality & Durabiliuty</h1>
                     <p class="mt-3 px-lg-5">Discover why customers trust Zonac Roofing System for their roofing needs. Explore our wide selection of products and services designed to elevate your project. Contact us today to speak with a roofing specialist and receive a free consultation. Let us bring quality, durability, and style to your roof.</p>
 
-                    <a href="contact.html" class="mt-4 genric-btn primary e-large">Get Started</a>
+                    <a href="contact.php" class="mt-4 genric-btn primary e-large">Get Started</a>
                 </div>
             </div>
         </div>
@@ -248,7 +249,7 @@
                     </div>
                 </div>
 
-                <a href="contact.html" class="mt-4 genric-btn primary e-large mx-auto alert-secondary">Contact us</a>
+                <a href="contact.php" class="mt-4 genric-btn primary e-large mx-auto alert-secondary">Contact us</a>
             </div>
         </div>
     </section>

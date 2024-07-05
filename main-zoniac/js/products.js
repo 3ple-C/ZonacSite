@@ -5,7 +5,7 @@ const allItems = Array(50).fill({
 })
 
 let currentPage = 1;
-const itemsPerPage = 12;
+const itemsPerPage = 3;
 let totalPages, totalItems;
 
 // Calculate total pages to 
@@ -113,17 +113,24 @@ const updateContent = () => {
 										<h6>$150.00</h6>
 										<h6 class="l-through" id="product-price">$${item.price}</h6>
 									</div>
-									<div class="prd-bottom">
+									<div class="d-flex justify-content-between align-items-center mt-3">
+                    <div class="prd-bottom d-flex">
 
-										<a href="javascript:void(0)" class="social-info" id="item" onclick="SelectItem()">
-											<span class="ti-bag"></span>
-											<p class="hover-text">add to bag</p>
-										</a>
-										<a href="" class="social-info">
-											<span class="lnr lnr-heart"></span>
-											<p class="hover-text">Wishlist</p>
-										</a>
-									</div>
+                      <a href="javascript:void(0)" class="social-info" id="item" onclick="SelectItem()">
+                        <span class="ti-bag"></span>
+                        <p class="hover-text mb-0" style="margin-top:5px;">add to bag</p>
+                      </a>
+                      <a href="" class="social-info">
+                        <span class="lnr lnr-heart"></span>
+                        <p class="hover-text mb-0" style="margin-top:5px;">Wishlist</p>
+                      </a>
+									  </div>
+
+				            <a class="btn circle-button btn-border btn-sm scroll-to " href="single-product.php"
+                      style='display:block; color: #144381; border-color: #144381;'>
+                      View more
+                    </a>
+                  </div>
 								</div>
 							</div>
 						</div>
