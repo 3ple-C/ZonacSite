@@ -53,9 +53,7 @@
 			align-items: center;
 			background: #f5f5f5;
 		}
-	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
 
-	<style>
 		.img-container {
 			width: 255px;
 			height: 271px;
@@ -71,7 +69,6 @@
 			height: 100%;
 			object-fit: cover;
 		}
-	</style>
 		.product-image {
 			width: 100%;
 			height: 100%;
@@ -100,11 +97,6 @@
 				Whether you're renovating your home, building a new commercial property, or simply looking to upgrade
 				your current roof, Zonac Roofing Systems is your partner in achieving a roof that not only protects but
 				enhances the value and appeal of your property.
-			</p>
-				Whether you're renovating your home, building a new commercial property, or simply looking to upgrade
-				your current roof, Zonac Roofing Systems is your partner in achieving a roof that not only protects but
-				enhances the value and appeal of your property.
-			</p>
 		</div>
 	</section>
 	<!-- End banner Area -->
@@ -135,8 +127,7 @@
 
 						</p>
 
-						<a href="" class="primary-btn about_btn">Know more</a>
-						<a href="" class="primary-btn about_btn">Know more</a>
+						<a href="about.php" class="primary-btn about_btn">Know more</a>
 					</div>
 				</div>
 				<div class="col-lg-6 no-padding exclusive-left">
@@ -166,8 +157,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="" class="primary-btn">Get Started</a>
-					<a href="" class="primary-btn">Get Started</a>
+					<a href="category.php" class="primary-btn">Get Started</a>
 				</div>
 			</div>
 		</div>
@@ -238,7 +228,6 @@
 							<div class="single-deal">
 								<div class="overlay"></div>
 								<img class="img-fluid w-100" src="img/main_pics/image-477x191 (1).jpg" alt="">
-								<img class="img-fluid w-100" src="img/main_pics/image-477x191 (1).jpg" alt="">
 								<a href="img/category/c1.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
@@ -249,7 +238,6 @@
 						<div class="col-lg-4 col-md-4">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/main_pics/image-223x192.jpg" alt="">
 								<img class="img-fluid w-100" src="img/main_pics/image-223x192.jpg" alt="">
 								<a href="img/category/c2.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
@@ -262,7 +250,6 @@
 							<div class="single-deal">
 								<div class="overlay"></div>
 								<img class="img-fluid w-100" src="img/main_pics/image-223x192 (1).jpg" alt="">
-								<img class="img-fluid w-100" src="img/main_pics/image-223x192 (1).jpg" alt="">
 								<a href="img/category/c3.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Product for Couple</h6>
@@ -273,7 +260,6 @@
 						<div class="col-lg-8 col-md-8">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src=" img/main_pics/image-477x191.jpg" alt="">
 								<img class="img-fluid w-100" src=" img/main_pics/image-477x191.jpg" alt="">
 								<a href="img/category/c4.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
