@@ -29,9 +29,7 @@
 	<link rel="stylesheet" href="css/nouislider.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel='stylesheet' id='hc-style-css'
-	href='http://themes.framework-y.com/yellowbusiness/wp-content/plugins/hybrid-composer/style.css?ver=1.0'
-	type='text/css' media='all' />
+	<link rel='stylesheet' id='hc-style-css' href='http://themes.framework-y.com/yellowbusiness/wp-content/plugins/hybrid-composer/style.css?ver=1.0' type='text/css' media='all' />
 
 	<script src="https://kit.fontawesome.com/6ab2133fe6.js" crossorigin="anonymous"></script>
 </head>
@@ -67,19 +65,25 @@
 				<div class="sidebar-categories">
 					<div class="head">Wishlists (0)</div>
 					<ul class="main-categories">
-					
+
 					</ul>
 				</div>
 
 				<!-- filter -->
 				<div class="sidebar-filter mt-50">
 					<div class="common-filter">
-						<div class="sidebar-categories"><div class="head text-white">Cart Items(0)</div></div>
+						<div class="sidebar-categories">
+							<div class="head text-white">Cart Items(0)</div>
+						</div>
 						<form action="#">
 							<ul>
 
 							</ul>
 						</form>
+
+						<a class="btn circle-button btn-border btn-sm scroll-to mx-auto mt-5" href="cart.php" style='display:block; width:fit-content; color: #144381; border-color: #144381;'>
+							View all
+						</a>
 					</div>
 					<div class="common-filter">
 						<div class="head">Price</div>
@@ -126,16 +130,13 @@
 					<div class="sorting mr-auto">
 					</div>
 					<div class="pagination" id="pagination">
-						<a href="#" class=" pagination-button" id="prev-button"><i class="fa fa-long-arrow-left"
-								aria-hidden="true"></i></a>
+						<a href="#" class=" pagination-button" id="prev-button"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
 						<a href="#" class="active pagination-button">1</a>
 						<a href="#" class="pagination-button">2</a>
 						<a href="#" class="pagination-button">3</a>
-						<a href="#" class="dot-dot pagination-button"><i class="fa fa-ellipsis-h"
-								aria-hidden="true"></i></a>
+						<a href="#" class="dot-dot pagination-button"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
 						<a href="#" class="pagination-button">6</a>
-						<a href="#" class=" pagination-button" id="next-button"><i class="fa fa-long-arrow-right"
-								aria-hidden="true"></i></a>
+						<a href="#" class=" pagination-button" id="next-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<!-- End Filter Bar -->
@@ -312,8 +313,7 @@
 							<div class="quick-view-content">
 								<div class="top">
 									<h3 class="head">Mill Oil 1000W Heater, White</h3>
-									<div class="price d-flex align-items-center"><span class="lnr lnr-tag"></span> <span
-											class="ml-10">$149.99</span></div>
+									<div class="price d-flex align-items-center"><span class="lnr lnr-tag"></span> <span class="ml-10">$149.99</span></div>
 									<div class="category">Category: <span>Household</span></div>
 									<div class="available">Availibility: <span>In Stock</span></div>
 								</div>
@@ -323,8 +323,7 @@
 										looking for something that can make your interior look awesome, and at the same
 										time give you the pleasant
 										warm feeling during the winter.</p>
-									<a href="#" class="view-full">View full Details <span
-											class="lnr lnr-arrow-right"></span></a>
+									<a href="#" class="view-full">View full Details <span class="lnr lnr-arrow-right"></span></a>
 								</div>
 								<div class="bottom">
 									<div class="color-picker d-flex align-items-center">Color:
@@ -338,10 +337,8 @@
 										Quantity:
 										<input type="text" class="quantity-amount ml-15" value="1" />
 										<div class="arrow-btn d-inline-flex flex-column">
-											<button class="increase arrow" type="button" title="Increase Quantity"><span
-													class="lnr lnr-chevron-up"></span></button>
-											<button class="decrease arrow" type="button" title="Decrease Quantity"><span
-													class="lnr lnr-chevron-down"></span></button>
+											<button class="increase arrow" type="button" title="Increase Quantity"><span class="lnr lnr-chevron-up"></span></button>
+											<button class="decrease arrow" type="button" title="Decrease Quantity"><span class="lnr lnr-chevron-down"></span></button>
 										</div>
 
 									</div>
@@ -362,9 +359,7 @@
 
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
 	<script src="js/jquery.nice-select.min.js"></script>

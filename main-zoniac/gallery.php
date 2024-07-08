@@ -49,10 +49,10 @@
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                 <div class="col-first">
-                    <h1>Element Page</h1>
+                    <h1>Zonac Gallery</h1>
                     <nav class="d-flex align-items-center">
                         <a href="index.php">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="category.php">Element</a>
+                        <a href="category.php">Gallery</a>
                     </nav>
                 </div>
             </div>
@@ -64,92 +64,123 @@
         <div class="container">
             <!-- Gallery -->
             <div class="section-top-border my-5">
-                <h3>Gerard Systems Roofing</h3>
+                <h3 class="">ROOFING PROJECTS</h3>
+                <!-- <h3 class="mb-0 mt-4">Classics</h3> -->
                 <div class="row gallery-item">
-                    <div class="col-md-4">
-                        <a href="img/elements/g1.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div>
+                    <div class="col-md-4 mt-0">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/class.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g2.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/classic.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g3.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/classic2.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="img/elements/g4.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/classic3.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="img/elements/g5.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="img/elements/g6.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g6.jpg);"></div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="img/elements/g7.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g7.jpg);"></div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="img/elements/g8.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g8.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/classic4.jpg);"></div>
                         </a>
                     </div>
                 </div>
-            </div>
-
-            <div class="section-top-border my-5">
-                <h3>Building Materials</h3>
                 <div class="row gallery-item">
-                    <div class="col-md-4">
-                        <a href="img/elements/g1.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div>
+                    <div class="col-md-4 mt-0">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles0.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g2.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles1.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g3.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles4.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-6"> <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles3.jpg); height:350px; background-position:center !important;"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="img/elements/g4.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles6.jpg); height:350px;"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row gallery-item">
+                    <div class="col-md-4 mt-0">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles7.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles8.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="img/elements/g5.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles9.jpg); height:350px; background-position:center !important;"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/shingles5.jpg); background-position:center center !important; height:350px;"></div>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="mt-5">RAINWATER COLLECTOR SYSTEMS</h3>
+                <div class="row gallery-item">
+                    <div class="col-md-4 mt-0" >
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/classic3.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g6.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g6.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/rainwatercollectr.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g7.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g7.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/rainwatercollector.jpg);"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <h3 class="mt-5">PPR PIPES CONNECTION</h3>
+                <div class="row gallery-item">
+                    <div class="col-md-4 mt-0" >
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/pprproject1.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="img/elements/g8.jpg" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url(img/elements/g8.jpg);"></div>
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/pprproject.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="javascript:void(0)" class="">
+                            <div class="single-gallery-image" style="background: url(img/main_pics/ppr.jpg);"></div>
                         </a>
                     </div>
                 </div>

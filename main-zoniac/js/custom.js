@@ -6,7 +6,7 @@ const header = `
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h d-flex gap-1 align-items-center logo-link" href="index.php">
 						<img src="img/image-50x50.jpg" alt="" class="rounded pe-2">
-						<span class="logo-text" style="">Zonac</span>
+						<span class="logo-text" style="">ZONAC</span>
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -163,7 +163,7 @@ const footer = `
 			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
 				<p class="footer-text m-0">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					All rights reserved | Copyright &copy; Zonac Ltd. Deployed by 8TRI_C 
+					All rights reserved | Copyright &copy; Zonac Ltd. Deployed by <a href="stitchitin.com"> Stitch-it-in </a>
 					<!--<script>document.write(new Date().getFullYear());</script>  This was made by <a href="https://colorlib.com"
 						target="_blank"> Colorlib</a>-->
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

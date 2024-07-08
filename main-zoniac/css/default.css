@@ -6,8 +6,9 @@ p {
 }
 .logo-text {
   font-weight: 700;
-  font-size: 30px;
-  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 3px;
+  /* font-style:7r italic; */
 }
 .logo-link{
   gap: 10px;
@@ -321,7 +322,7 @@ body {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 .dbox .icon {
   width: 60px;

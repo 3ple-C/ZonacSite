@@ -63,7 +63,7 @@
 
     <!-- About content -->
     <div class="section-top-border container ftco-section">
-        <div class="my-5">
+        <div class="">
             <h1 class="mb-30">About us</h1>
             <div class="row">
                 <div class="col-md-5">

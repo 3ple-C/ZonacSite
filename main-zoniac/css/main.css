@@ -13,7 +13,7 @@
 }
 
 .section_gap {
-  padding: 10px 0;
+  padding: 5em 0;
 }
 @media (max-width: 991px) {
   .section_gap {
@@ -544,9 +544,9 @@ h1, h2, h3, h4, h5, h6 {
 .single-gallery-image {
   margin-top: 30px;
   background-repeat: no-repeat !important;
-  background-position: center center !important;
+  background-position: top center !important;
   background-size: cover !important;
-  height: 200px;
+  height: 300px;
 }
 
 .list-style {

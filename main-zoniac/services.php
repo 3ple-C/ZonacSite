@@ -138,7 +138,7 @@
                                     <div class="row">
                                         <div class="col-md-12 hc_button_cnt">
                                             <div id="yLKZK" class="button-cnt    " style="display: block; ">
-                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="#"
+                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="contact.php"
                                                     style='display:block; color: #144381; border-color: #144381;'>
                                                     Contact Us </a>
 
@@ -211,7 +211,7 @@
                                     <div class="row">
                                         <div class="col-md-12 hc_button_cnt">
                                             <div id="gakiQ" class="button-cnt    " style="display: block; ">
-                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="#"
+                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="contact.php"
                                                     style='display:block;  color: #144381; border-color: #144381;'>
                                                     Contact us </a>
                                             </div>
@@ -297,7 +297,7 @@
                                     <div class="row">
                                         <div class="col-md-12 hc_button_cnt">
                                             <div id="gakiQ" class="button-cnt    " style="display: block; ">
-                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="#"
+                                                <a class="btn circle-button btn-border btn-sm scroll-to " href="contact.php"
                                                     style='display:block; color: #144381; border-color: #144381;'>
                                                     Contact us </a>
                                             </div>
